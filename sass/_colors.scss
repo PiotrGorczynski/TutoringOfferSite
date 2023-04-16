@@ -1,0 +1,34 @@
+$main-color: #191970;
+$secondary-color: #3C486B;
+$pure-white: #fff;
+$light-white: #eee;
+$dark: #2e2e2e;
+$icons-color: #4144e1;
+$icons-background: #c5cfec;
+$footer-bg: #666cbb;
+
+$blue-purple-orange-gradient: linear-gradient(
+	45deg,
+	rgba(20, 105, 241, 0.418),
+	#71358d8f,
+	#bf3930b4
+);
+
+$blue-purple-orange-gradient-solid: linear-gradient(
+	45deg,
+	rgba(20, 105, 241, 0.856),
+	#71358dd8,
+	#bf3930cb
+);
+
+$dark-blue-gradient: linear-gradient(
+	45deg,
+	#191970dc,
+	rgba(42, 10, 184, 0.75)
+);
+
+$dark-blue-gradient-solid: linear-gradient(
+	45deg,
+	#191970,
+	rgb(42, 10, 184)
+);
