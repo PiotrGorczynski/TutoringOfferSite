@@ -38,6 +38,14 @@ body {
 }
 
 
+.btn-nav-btn {
+	position: absolute;
+	top: 160%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+
 .btn:hover {
 	background: #ffffff1f;
 }
