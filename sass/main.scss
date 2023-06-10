@@ -33,7 +33,10 @@ body {
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: 0.2s;
+	
+
 }
+
 
 .btn:hover {
 	background: #ffffff1f;
@@ -242,6 +245,7 @@ section.achievements {
 				}
 				p {
 					color: $secondary-color;
+					text-align: justify;
 				}
 			}
 		}
@@ -306,62 +310,35 @@ section.offers {
 
 section.contact {
 	h2 {
-		color: $main-color;
+	  color: $main-color;
+	}
+  
+	.map {
+	  width: 100%;
+	  max-width: 100%;
+	  height: auto;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
 	}
 
-	.contact-box {
-		padding: 1em 0em;
-		display: flex;
-		flex-direction: column;
+    .contact-element {
+		
+		margin-bottom: 1rem;
 		text-align: center;
-		justify-content: center;
-
-		.side {
-			display: flex;
-			justify-content: center;
-			// align-items: center;
-			flex-direction: column;
+		margin-top: 3rem;
+  
+		h3 {
+		  font-size: 2rem;
 		}
-
-		.side-left {
-			height: 100%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			.map {
-				max-width: 70vw;
-				img {
-					width: 100%;
-					height: 100%;
-				}
-			}
+  
+		p {
+		  font-size: 1.6rem;
 		}
-
-		.side-right {
-			margin-top: 2em;
-			max-width: 600px;
-			.contact-element {
-				padding: 1em 0;
-				h3 {
-					margin-bottom: 0.5em;
-					font-size: 2.2rem;
-					color: $secondary-color;
-				}
-
-				p {
-					color: $dark;
-					font-size: 2rem;
-				}
-
-				.btn {
-					color: $main-color;
-					border: 1px solid $main-color;
-					background-color: $icons-background;
-				}
-			}
-		}
-	}
-}
+	  }
+	
+  }
+  
 
 .footer {
 	color: $pure-white;
